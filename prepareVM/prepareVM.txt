@@ -2,3 +2,5 @@ sudo apt update
 sudo apt upgrade -y
 ssh-keygen -t ed25519 -C "deepakapte06@gmail.com"
 sudo apt install ansible -y
+ansible-playbook -i localhost, -c local git_playbook.yaml
+git --version
